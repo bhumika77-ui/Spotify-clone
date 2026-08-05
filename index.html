@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+          integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" href="./asset/logo.png">
+    <link rel="stylesheet" href="spotify.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+<body>
+<div class="main">
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <!-- Navigation -->
+        <div class="nav">
+            <div class="nav-option" style="opacity: 1;">
+             <i class="fa-solid fa-house"></i>
+              <a href="#">Home</a> 
+              </div>
+            <div class="nav-option">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <a href="#">Search</a>
+            </div>
+        </div>
+<!-- Library -->
+        <div class="library">
+            <div class="options">
+                <div class="lib-option nav-option">
+                    <img src="./asset/library_icon.png" alt="Library">
+                    <a href="#">Your Library</a>
+                </div>
+                <div class="icons">
+                    <i class="fa-solid fa-plus"></i>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+            <div class="box">
+                <p class="box-p1">Create your first playlist</p>
+                <p class="box-p2">It's easy, we'll help you.</p>
+                <button class="badge">Create Playlist</button>
+            </div>
+            <div class="box">
+                <p class="box-p1">Let's find some podcasts to follow</p>
+                <p class="box-p2">We'll keep you updated on new episodes.</p>
+                <button class="badge">Browse Podcasts</button>
+            </div>
+        </div>
+    </div>
+<!-- Main Content -->
+        <div class="main-content">
+<!-- Sticky Navigation -->
+        <div class="sticky-nav">
+            <div class="sticky-nav-icons">
+                <img src="./asset/backward_icon.png" alt="Back">
+                <img src="./asset/forward_icon.png" class="hide" alt="Forward">
+            </div>
+            <div class="sticky-nav-options">
+                <button class="badge nav-item hide">
+                    Explore Premium
+                </button>
+                <button class="badge nav-item dark-badge">
+                    <i class="fa-solid fa-circle-arrow-down"></i>
+                    Install App
+                </button>
+                <button class="badge nav-item">
+                    Browse
+                </button>
+                <i class="fa-regular fa-user"></i>
+            </div>
+        </div>
+<!-- Your Top Mixes -->
+        <h2>Your Top Mixes</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="./asset/card1img.jpeg" class="card-img" alt="">
+                <p class="card-info">
+                    Guru Randhawa, Parampara Tandon and Sh...
+                </p>
+            </div>
+            <div class="card">
+                <img src="./asset/card2img.jpeg" class="card-img" alt="">
+                <p class="card-info">
+                    Hardy Sandhu, Yo Yo Honey Singh and Sunanda...
+                </p>
+            </div>
+            <div class="card">
+                <img src="./asset/card3img.jpeg" class="card-img" alt="">
+                <p class="card-info">
+                    Karan Aujla, Filmy, Guru Randhawa and more...
+                </p>
+            </div>
+            <div class="card">
+                <img src="./asset/card4img.jpeg" class="card-img" alt="">
+                <p class="card-info">
+                    Arijit Singh, Pritam, Sachin-Jigar and more...
+                </p>
+            </div>
+        </div>
+<!-- Recents -->
+        <h2>Recents</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="./asset/card5img.jpeg" class="card-img" alt="">
+                <p class="card-title">Saiyaara (From Saiyaara)</p>
+                <p class="card-info">Single · Tanishk Bagchi</p>
+            </div>
+            <div class="card">
+                <img src="./asset/card6img.jpeg" class="card-img" alt="">
+                <p class="card-title">Barbaad (From Saiyaara)</p>
+                <p class="card-info">Single · The Rish</p>
+            </div>
+            <div class="card">
+                <img src="./asset/card7img.jpeg" class="card-img" alt="">
+                <p class="card-title">Tum Ho Toh</p>
+                <p class="card-info">Single · Vishal Mishra</p>
+            </div>
+            <div class="card">
+                <img src="./asset/card8img.jpeg" class="card-img" alt="">
+                <p class="card-title">Humsafar</p>
+                <p class="card-info">Single · Sachet-Parampara</p>
+            </div>
+            <div class="card">
+                <img src="./asset/card9img.jpeg" class="card-img" alt="">
+                <p class="card-title">WITHOUT PREJUDICE</p>
+                <p class="card-info">Album · Guru Randhawa</p>
+            </div>
+            <div class="card">
+                <img src="./asset/card10img.jpeg" class="card-img" alt="">
+                <p class="card-title">AZUL</p>
+                <p class="card-info">Album · Guru Randhawa</p>
+            </div>
+        </div>
+        <!-- Featured Charts -->
+        <h2>Featured Charts</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="./asset/card11img.jpeg" class="card-img" alt="">
+                <p class="card-title">Top Songs Global</p>
+                <p class="card-info">
+                    The world's biggest hits updated daily.
+                </p>
+            </div>
+            <div class="card">
+                <img src="./asset/card12img.jpeg" class="card-img" alt="">
+                <p class="card-title">Top Songs India</p>
+                <p class="card-info">
+                    The hottest songs in India right now.
+                </p>
+            </div>
+            <div class="card">
+                <img src="./asset/card13img.jpeg" class="card-img" alt="">
+                <p class="card-title">Top 50 - Global</p>
+                <p class="card-info">
+                    Your daily update of the most played tracks.
+                </p>
+            </div>
+        </div>
+                <!-- Footer -->
+        <div class="footer">
+            <div class="line"></div>
+        </div>
+    </div>
+    <!-- End Main Content -->
+</div>
+<!-- End Main -->
+<!-- Music Player -->
+<div class="music-player">
+    <!-- Left : Album -->
+    <div class="album">
+        <img src="./asset/images.jpg" alt="Album Image">
+        <div class="album-info">
+            <h4>Qeher</h4>
+            <p>Guru Randhawa</p>
+        </div>
+        <div class="album-icons">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-regular fa-window-restore"></i>
+        </div>
+    </div>
+    <!-- Center : Player -->
+    <div class="player">
+        <div class="player-controls">
+            <img src="./asset/player_icon1.png"
+                class="player-icon"
+                alt="Shuffle">
+            <img src="./asset/player_icon2.png"
+                class="player-icon"
+                alt="Previous">
+            <img src="./asset/player_icon3.png"
+                class="player-icon play-btn"
+                alt="Play">
+            <img src="./asset/player_icon4.png"
+                class="player-icon"
+                alt="Next">
+            <img src="./asset/player_icon5.png"
+                class="player-icon"
+                alt="Repeat">
+        </div>
+        <div class="playback-bar">
+            <span class="current-time">0:00</span>
+          <input 
+          type="range" 
+    min="0" 
+    max="100" 
+    value="30" 
+    class="progress-bar"
+    aria-label="Song progress">
+
+            <span class="total-time">3:07</span>
+        </div>
+    </div>
+<!-- Controls -->
+    <div class="controls">
+        <i class="fa-solid fa-microphone"></i>
+        <i class="fa-solid fa-list"></i>
+        <i class="fa-solid fa-laptop"></i>
+        <i class="fa-solid fa-volume-high"></i>
+        <input type="range" min="0" max="100" value="70" class="volume-bar" aria-label="Volume">
+        <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+    </div>
+</div>
+</body>
+</html>
